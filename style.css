@@ -170,7 +170,9 @@
     font-weight: 40;
 }
 
-.metnh p,
+.metnh p{font-size: 20px;
+    font-weight: 350;
+    color: #555;}
 .klyents p {
     font-size: 20px;
     font-weight: 350;
@@ -179,7 +181,11 @@
 
 .metna,
 .metnb,
-.metnc,
+.metnc,{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 50px 70px;}
 .klyents {
     display: flex;
     justify-content: space-between;
